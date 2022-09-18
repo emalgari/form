@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #9dbebb; /**Body**/
+}
+/*************************************Container****************************************************/
+.container{
+    margin: 153px 243px 153px 243px;
+    width: 954px;
+    height: 594px;
+    display: flex;
+}
+
+.container > .form{
+    background: #BE0909;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    width: 609px;
+    height: 594px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/****************Common for Label and button*************************/
+.container > .form > .label, .btn{
+    text-transform: uppercase; 
+}
+/****************Common for Label and button End*************************/
+
+
+/****************Common for Label, Text Box and Email Box*************************/
+.container > .form > .label, .text-box, .email-box{
+    position: relative;
+    top: 64px;
+    left: 60px;
+    background-color: #BE0909;
+    font-weight: 400;
+}
+/****************Common for Label, Text Box and Email Box End*************************/
+
+
+/**********Common for Label, Text Box, Email Box and Button*******************/
+.container > .form > .label, .text-box, .email-box,.btn{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #FEFFFF;
+}
+/*********Common for Label, Text Box, Email Box and Button End************/
+
+
+/*************Common for Text Box and Email Box ***************/
+.container > .form > .text-box, .email-box{
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
+    width: 300px;
+    height: 30px;
+}
+/***********Common for Text Box and Email Box End*********/
+
+
+/**************** Only for Button*************************/
+.container > .form > .btn{
+    position: absolute;
+    left: 407px;
+    top: 650px;
+    width: 220px;
+    height: 48px;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    border-style: none;
+    font-weight: 700;
+    text-align: center;
+}
+.container > .form > .btn:hover{
+    background-color: #629bab;
+    cursor: pointer;
+}
+/**************** Only for Button End*************************/
+
+
+/**************** Only for Box*************************/
+.container > .box{
+    background: #FFB039;
+    width: 345px;
+    height: 594px;
+}
+/**************** Only for Box End*************************/
+/*************************************Container End****************************************************/
+
+
+/****************Image(Duck)*************************/
+.image{
+    background: url(/images/duck.png);
+    position: absolute;
+    width: 663px;
+    height: 603px;
+    left: 585px;
+    top: 205px;
+}
+/****************Image(Duck)End*************************/
