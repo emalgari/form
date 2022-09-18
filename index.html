@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>form</title>
 </head>
 <body>
-    
+    <!---------------------------------------Conatainer----------------------------------------------->
+    <div class="container">
+        <form action="" class="form">
+            <!----------------------(Full name) Label and Text Box -------------------->
+            <label class="label" for="name" >full name</label> 
+            <input class="text-box" type="text">
+            <!----------------------(Full name) Label and Text Box End-------------------->
+
+         
+            <!----------------------(Email) Label and Email Box-------------------->
+            <label class="label" for="email" >email</label>
+            <input  class="email-box" type="email" placeholder="Your Email">
+            <!----------------------(Email) Label and Email Box End-------------------->
+
+         
+            <!----------------------(Message regarding) Label and Text Box-------------------->
+            <label class="label" for="subject" >message regarding</label>
+            <input class="text-box" type="text">
+            <!----------------------(Message regarding) Label and Text Box End-------------------->
+
+
+            <!----------------------(Message) Label and Tex Box-------------------->
+            <label class="label" for="message" >message</label>
+            <textarea class="text-box" rows="4" cols="5" placeholder="Your Message"></textarea>
+            <!----------------------(Message) Label and Tex Box End-------------------->
+
+
+            <!------------------------Button------------------------->
+            <input class="btn" type="submit" value="send message">
+            <!------------------------Button------------------------->
+        </form>
+        <!------------------------Box (Yellow)-------------------------->
+        <div class="box"></div>
+        <!------------------------Box (Yellow) End-------------------------->
+    </div>
+ <!---------------------------------------Conatainer End----------------------------------------------->
+ 
+    <!------------------------Image (Duck)-------------------------->
+    <div class="image"></div>
+    <!------------------------Image (Duck) End-------------------------->
 </body>
 </html>
