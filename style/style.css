@@ -97,7 +97,7 @@ body{
 
 /****************Image(Duck)*************************/
 .image{
-    background: url(/images/duck.png);
+    background: url(../images/duck.png);
     position: absolute;
     width: 663px;
     height: 603px;
