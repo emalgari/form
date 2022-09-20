@@ -8,33 +8,33 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
-    <title>form</title>
+    <title>Form</title>
 </head>
 <body>
     <!---------------------------------------Conatainer----------------------------------------------->
     <div class="container">
         <form action="" class="form">
             <!----------------------(Full name) Label and Text Box -------------------->
-            <label class="label" for="name" >full name</label> 
-            <input class="text-box" type="text">
+            <label class="label" for="name" >full name*</label> 
+            <input class="text-box" name="name" required="required" type="text">
             <!----------------------(Full name) Label and Text Box End-------------------->
 
          
             <!----------------------(Email) Label and Email Box-------------------->
-            <label class="label" for="email" >email</label>
-            <input  class="email-box" type="email" placeholder="Your Email">
+            <label class="label" for="email" >email*</label>
+            <input  class="email-box" name="email" required="required" type="email" placeholder="Your Email">
             <!----------------------(Email) Label and Email Box End-------------------->
 
          
             <!----------------------(Message regarding) Label and Text Box-------------------->
             <label class="label" for="subject" >message regarding</label>
-            <input class="text-box" type="text">
+            <input class="text-box" name="subject" type="text">
             <!----------------------(Message regarding) Label and Text Box End-------------------->
 
 
             <!----------------------(Message) Label and Tex Box-------------------->
             <label class="label" for="message" >message</label>
-            <textarea class="text-box" rows="4" cols="5" placeholder="Your Message"></textarea>
+            <textarea class="text-box" name="message" rows="4" cols="5" placeholder="Your Message"></textarea>
             <!----------------------(Message) Label and Tex Box End-------------------->
 
 
@@ -49,7 +49,9 @@
  <!---------------------------------------Conatainer End----------------------------------------------->
  
     <!------------------------Image (Duck)-------------------------->
-    <div class="image"></div>
+    <div class="image">
+        <img src="./images/duck.png" alt="duck">
+    </div>
     <!------------------------Image (Duck) End-------------------------->
 </body>
 </html>
